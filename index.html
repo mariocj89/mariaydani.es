@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>María y Dani - Nuestra Boda</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+        .image-container {
+            width: 100%;
+            height: auto;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .info {
+            margin-top: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .info .details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .info .details div {
+            margin: 10px 0;
+        }
+        .info .details div p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+        .info .details div span {
+            font-size: 2em;
+        }
+        @media (min-width: 600px) {
+            .info .details {
+                flex-direction: row;
+                justify-content: space-around;
+                width: 100%;
+            }
+            .info .details div {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://lh6.googleusercontent.com/I3J0IUQVGNdUXEYxnr1-IG8uBhnBlC76A6Lb77IpE-qBxdZbamhyTAPPGbZArlOqOhKCH_MYjcVqtE-CtRT6NpbwGRFS8ElpdX09zq160Wnxa2qz6CNkaUgqHfdSgh1snbVgyEpAphc=w4032" alt="María y Dani">
+        </div>
+        <div class="info">
+            <h1>María y Dani</h1>
+            <div class="details">
+                <div>
+                    <span>⛪</span>
+                    <p>Ceremonia en Catedral Vieja de Salamanca.</p>
+                    <p>Plaza de Juan XXlll s/n.</p>
+                </div>
+                <div>
+                    <span>🍽️</span>
+                    <p>Banquete en Finca Palacio Carrascalino</p>
+                    <p>Matilla de los Caños del Río, Salamanca.</p>
+                </div>
+                <div>
+                    <span>📅</span>
+                    <p>Sábado, 14 de Junio de 2025 a las 17:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
